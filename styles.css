@@ -161,3 +161,28 @@ p {
   font-style: normal;
   font-size: 25px;
 }
+/*section-Call To Actions*/
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 12px;
+  height: 150px;
+  width: 900px;
+}
+
+.cta-text {
+  color: #f9faf8;
+}
+
+.cta-button {
+  border: 1px solid #f9faf8;
+}
