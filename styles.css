@@ -21,7 +21,7 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: 1000px;
-  width: 80%;
+  width: 53%;
 }
 .links {
   display: flex;
@@ -59,7 +59,7 @@ a {
 .hero {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 420px;
   gap: 8px;
 }
 
@@ -67,15 +67,15 @@ a {
   font-size: 48px;
   font-weight: 900;
   width: 350px;
-  margin-bottom: 5px;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .subtext {
+  text-align: start;
   font-size: 18px;
   color: #e5e7eb;
-  margin-bottom: 16px;
 }
+
 button {
   border: none;
   border-radius: 8px;
@@ -106,6 +106,7 @@ h2 {
 .info-cards {
   display: flex;
   flex-wrap: wrap;
+  height: 300px;
   justify-content: center;
   gap: 50px;
 }
@@ -113,16 +114,15 @@ h2 {
 .card {
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 180px;
   height: 250px;
   gap: 10px;
-  /*border: 3px solid #3882f6*/
 }
 
 .card-image-placeholder {
   border: 4px solid #3882f6;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 20px;
 }
 
@@ -131,3 +131,33 @@ p {
 }
 
 /*quote section*/
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  height: 400px;
+  gap: 15px;
+}
+
+.quote-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 770px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+.quote-author {
+  display: flex;
+  width: 750px;
+  justify-content: flex-end;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 25px;
+}
