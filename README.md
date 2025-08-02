@@ -2,7 +2,7 @@
 
 # Landing Page Project
 
-**[English Version](#english-version) | [Bahasa Indonesia](#versi-bahasa-indonesia)**
+**[English Version](#english-version) | [Bahasa Indonesia](#bahasa-indonesia)**
 
 ---
 
