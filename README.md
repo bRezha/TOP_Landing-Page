@@ -11,13 +11,11 @@ Repositori ini berisi solusi saya untuk tugas "Landing Page" dari The Odin Proje
 
 
 - [Ikhtisar](#ikhtisar)
-
   - [Tantangan](#tantangan)
   - [Desain Layout](#design-layout)
   - [Tautan](#tautan)
-
+  
 - [Proses Saya](#proses-saya)
-
   - [Dibangun Dengan](#dibangun-dengan)
   - [Apa yang Saya Pelajari](#apa-yang-saya-pelajari)
   - [Pengembangan Lanjutan](#pengembangan-lanjutan) 
