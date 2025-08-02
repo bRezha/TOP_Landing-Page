@@ -137,8 +137,8 @@ Proyek ini menekankan:
 
 ### Tautan
 
-- [URL Solusi]:(https://github.com/bRezha/TOP_Landing-Page)
-- [URL Situs Langsung]:(https://brezha.github.io/TOP_Landing-Page/)
+- URL Solusi:(https://github.com/bRezha/TOP_Landing-Page)
+- URL Situs Langsung:(https://brezha.github.io/TOP_Landing-Page/)
 
 ## Proses Saya
 
@@ -176,7 +176,7 @@ Dalam proyek-proyek di masa mendatang, saya bertujuan untuk fokus pada:
 ## Penulis
 
 - Nama Anda - Rezha Bayu
-- GitHub    - [bRezha](https://github.com/bRezha)
+- GitHub    - (https://github.com/bRezha)
 
 ## Ucapan Terima Kasih
 
