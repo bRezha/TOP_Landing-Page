@@ -1,97 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-    <!-- top-bar-logo-and-link-->
-    <header class="site-header">
-      <div class="menu-container">
-        <div class="menu">
-          <div class="logo"><a href="#">Header Logo</a></div>
-
-          <nav class="main-nav">
-            <ul class="links">
-              <li><a href="#">header link one</a></li>
-              <li><a href="#">header link two</a></li>
-              <li><a href="#">header link three</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!-- main-content-of-pages -->
-    <main class="site-main">
-      <section class="header-container">
-        <div class="hero">
-          <h1 class="header">This website is AWESOME</h1>
-          <p class="subtext">
-            This website has some subtext that goes here under the main title.
-            It's smaller font and the color lower contras
-          </p>
-          <div class="button"><button>Sign Up</button></div>
-        </div>
-
-        <div class="placeholder">This isi a placeholder for an image</div>
-      </section>
-      <!-- section-info-->
-      <section class="info-section">
-        <h2>Some random information</h2>
-        <div class="info-cards">
-          <div class="card">
-            <div class="card-image-placeholder"></div>
-            <p>this is some subtext under an illustration or image</p>
-          </div>
-
-          <div class="card">
-            <div class="card-image-placeholder"></div>
-            <p>this is some subtext under an illustration or image</p>
-          </div>
-
-          <div class="card">
-            <div class="card-image-placeholder"></div>
-            <p>this is some subtext under an illustration or image</p>
-          </div>
-
-          <div class="card">
-            <div class="card-image-placeholder"></div>
-            <p>this is some subtext under an illustration or image</p>
-          </div>
-        </div>
-      </section>
-      <!-- section-quotes -->
-      <section class="quote-section">
-        <blockquote class="quote-text">
-          This is an inspiring, or a testimonial from a customer. Maybe it's
-          just filling up space, or maybe people wil actually read it. Who
-          knows? All I know is that it looks nice.
-        </blockquote>
-        <cite class="quote-author"> -Thor, God of Thunder</cite>
-      </section>
-      <!-- section-CTA -->
-      <section class="cta-section">
-        <div class="cta-box">
-          <div class="cta-text">
-            <h3>Call to action! it's time!</h3>
-            <p>
-              Sign up for our product by clicking that button right over there!
-            </p>
-          </div>
-          <button class="cta-button">Sign Up</button>
-        </div>
-      </section>
-    </main>
-    <!-- footer -->
-    <footer class="site-footer">
-      <p>Copyright &copy;The Odin Project 2025</p>
-    </footer>
-  </body>
-</html>
+/* * Bagian 1: Global Styles & Reusable Components * Ini adalah gaya-gaya dasar
+yang akan diterapkan ke seluruh halaman. * Kita juga bikin gaya untuk komponen
+yang dipakai berulang, seperti button. */ /* Reset CSS agar semua browser punya
+tampilan yang sama */ * { margin: 0; padding: 0; box-sizing: border-box; } /*
+Gaya dasar untuk body */ body { font-family: "Roboto", sans-serif; display:
+flex; flex-direction: column; /* Tambahkan min-height agar footer selalu di
+bawah */ min-height: 100vh; } /* Gaya untuk elemen umum agar tidak diulang */ ul
+{ list-style-type: none; } a { color: #e5e7eb; text-decoration: none; font-size:
+18px; } /* Tombol digunakan di beberapa tempat, jadi kita buat di sini */
+.button-primary { border: none; border-radius: 8px; background-color: #3882f6;
+/* Pakai 'background-color' biar konsisten */ color: white; padding: 8px 24px;
+font-weight: bold; } /* Tombol untuk bagian CTA punya border berbeda, jadi kita
+override di sini */ .cta-button { border: 1px solid #f9faf8; } /* * Bagian 2:
+Section-specific Styling * Di sini kita styling per section biar lebih
+terorganisir. */ /* Header & Menu */ .site-header, .header-container {
+background-color: #1f2937; color: #f9faf8; } .site-header { padding: 20px 0; }
+.menu { display: flex; justify-content: space-between; align-items: center;
+max-width: 1000px; width: 53%; margin: 0 auto; /* Tengahin konten menu */
+padding: 0 20px; /* Tambahkan padding agar tidak mepet di mobile */ } .links {
+display: flex; align-items: center; gap: 26px; } .logo { font-size: 24px;
+font-weight: 900; /* Pakai 900 biar konsisten */ } /* Hero Section */
+.header-container { display: flex; justify-content: center; align-items: center;
+padding: 80px 0; gap: 50px; } .hero { display: flex; flex-direction: column; /*
+Hapus fixed width, pakai max-width biar lebih responsif */ max-width: 420px;
+gap: 8px; } .hero h1 { font-size: 48px; font-weight: 900; line-height: 1; }
+.subtext { font-size: 18px; color: #e5e7eb; } .placeholder { background-color:
+#6d747d; color: #f9faf8; display: flex; justify-content: center; align-items:
+center; /* Hapus fixed width & height, pakai aspect-ratio */ width: 500px;
+height: 230px; } /* Info Section */ .info-section { padding: 40px 0; } h2 {
+text-align: center; font-size: 36px; font-weight: 900; color: #1f2937; /*
+Perbaiki dari 'columns' jadi 'color' */ margin-bottom: 40px; /* Pindahkan margin
+agar lebih rapi */ } .info-cards { display: flex; flex-wrap: wrap;
+justify-content: center; gap: 50px; /* Hapus fixed height */ } .card { display:
+flex; flex-direction: column; width: 180px; gap: 10px; } .card-image-placeholder
+{ border: 4px solid #3882f6; width: 180px; height: 180px; border-radius: 20px; }
+.info-section p { text-align: center; } /* Quote Section */ .quote-section {
+display: flex; justify-content: center; align-items: center; flex-direction:
+column; background-color: #e5e7eb; padding: 80px 0; /* Ganti fixed height jadi
+padding */ gap: 15px; } .quote-text { max-width: 770px; font-size: 36px;
+font-style: italic; font-weight: 300; color: #1f2937; line-height: 1.3; }
+.quote-author { width: 750px; text-align: right; /* Lebih baik pakai text-align
+*/ font-weight: 650; font-style: normal; font-size: 25px; } /* Call to Action
+Section */ .cta-section { display: flex; justify-content: center; align-items:
+center; padding: 80px 0; /* Ganti fixed height jadi padding */ } .cta-box {
+display: flex; justify-content: space-between; /* Pakai 'space-between' biar
+lebih flexibel */ align-items: center; background-color: #3882f6; border-radius:
+12px; padding: 40px 100px; /* Ganti fixed height/width jadi padding */
+max-width: 900px; } .cta-text { color: #f9faf8; } /* Footer Section */
+.site-footer { background-color: #1f2937; display: flex; justify-content:
+center; align-items: center; color: #f9faf8; height: 120px; font-size: 24px;
+text-align: center; /* Pastikan teks di tengah */ }
