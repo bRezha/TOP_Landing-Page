@@ -2,7 +2,7 @@
 
 # Landing Page Project
 
-**[English Version](#english-version) | [Versi Bahasa Indonesia](#versi-bahasa-indonesia)**
+**[English Version](#english-version) | [Bahasa Indonesia](#bahasa-indonesia)**
 
 ---
 
@@ -14,7 +14,7 @@ This repository contains my solution for The Odin Project's "Landing Page" assig
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Design Layout](#design-layout)
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
@@ -40,14 +40,16 @@ The project emphasizes:
 - Practicing good Git and GitHub workflow (committing early & often).
 - Not worrying about pixel-perfection or mobile responsiveness at this stage.
 
-### Screenshot
+### Design Layout
 
-![Screenshot of the Landing Page Project](https://via.placeholder.com/800x450?text=Screenshot+of+Landing+Page)
+![design Layout](./design-layout.jpg)
+
+![design Pattern](./design-pattern.jpg)
 
 ### Links
 
-- Solution URL: [Tambahkan URL repository GitHub Anda di sini]
-- Live Site URL: [Jika Anda menghostingnya (misalnya, GitHub Pages), tambahkan URL di sini. Jika belum, bisa dihapus atau tambahkan catatan.]
+- Solution URL: (https://github.com/bRezha/TOP_Landing-Page)
+- Live Site URL: (https://brezha.github.io/TOP_Landing-Page/)
 
 ## My Process
 
@@ -84,18 +86,16 @@ In future projects, I aim to focus on:
 
 ## Author
 
-- Your Name - [Misal: John Doe]
-- GitHub - [Tambahkan profil GitHub Anda] (e.g., [https://github.com/your-username](https://github.com/your-username))
+- Rezha Bayu
+- GitHub -(https://brezha.github.io/TOP_Landing-Page/)
 
 ## Acknowledgments
 
 - This project was completed as part of [The Odin Project's](https://www.theodinproject.com/) curriculum.
-- Free images for this project were sourced from [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
-  - [Tambahkan kredit spesifik untuk setiap gambar yang Anda gunakan di sini, jika berlaku.]
 
 ---
 
-## Versi Bahasa Indonesia
+## Bahasa Indonesia
 
 Repositori ini berisi solusi saya untuk tugas "Landing Page" dari The Odin Project. Tujuan dari proyek ini adalah untuk membangun halaman web lengkap dari desain yang diberikan, dengan fokus pada struktur HTML, styling CSS (termasuk Flexbox), dan praktik terbaik dalam pengembangan web.
 
@@ -103,7 +103,7 @@ Repositori ini berisi solusi saya untuk tugas "Landing Page" dari The Odin Proje
 
 - [Ikhtisar](#ikhtisar)
   - [Tantangan](#tantangan)
-  - [Tangkapan Layar](#tangkapan-layar)
+  - [Desain Layout](#desain-layout)
   - [Tautan](#tautan)
 - [Proses Saya](#proses-saya)
   - [Dibangun Dengan](#dibangun-dengan)
@@ -118,8 +118,8 @@ Repositori ini berisi solusi saya untuk tugas "Landing Page" dari The Odin Proje
 
 Pengguna diharapkan dapat:
 
-- Melihat tata letak optimal situs berdasarkan gambar desain yang disediakan.
-- Melihat halaman web yang sepenuhnya terstruktur dan diberi gaya menggunakan HTML dan CSS.
+- Membuat situs berdasarkan gambar desain yang disediakan.
+- Membuat halaman web yang sepenuhnya terstruktur dan diberi gaya menggunakan HTML dan CSS
 
 Proyek ini menekankan:
 
@@ -129,14 +129,14 @@ Proyek ini menekankan:
 - Mempraktikkan alur kerja Git dan GitHub yang baik (melakukan commit lebih awal & sering).
 - Tidak khawatir tentang kesempurnaan piksel atau responsivitas seluler pada tahap ini.
 
-### Tangkapan Layar
+### Desain Layout
 
-![Tangkapan Layar Proyek Landing Page](https://via.placeholder.com/800x450?text=Tangkapan+Layar+Landing+Page)
+- Lihat desain layout [versi bahasa Inggris](#design-layout)
 
 ### Tautan
 
-- URL Solusi: [Tambahkan URL repositori GitHub Anda di sini]
-- URL Situs Langsung: [Jika Anda menghostingnya (misalnya, GitHub Pages), tambahkan URL di sini. Jika belum, bisa dihapus atau tambahkan catatan.]
+- URL Solusi:(https://github.com/bRezha/TOP_Landing-Page)
+- URL Situs Langsung:(https://brezha.github.io/TOP_Landing-Page/)
 
 ## Proses Saya
 
@@ -173,11 +173,9 @@ Dalam proyek-proyek di masa mendatang, saya bertujuan untuk fokus pada:
 
 ## Penulis
 
-- Nama Anda - [Misal: John Doe]
-- GitHub - [Tambahkan profil GitHub Anda] (misalnya, [https://github.com/your-username](https://github.com/your-username))
+- Rezha Bayu
+- GitHub : (https://github.com/bRezha)
 
 ## Ucapan Terima Kasih
 
 - Proyek ini diselesaikan sebagai bagian dari kurikulum [The Odin Project](https://www.theodinproject.com/).
-- Gambar gratis untuk proyek ini bersumber dari [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), dan [Unsplash](https://unsplash.com/).
-  - [Tambahkan kredit spesifik untuk setiap gambar yang Anda gunakan di sini, jika berlaku.]
